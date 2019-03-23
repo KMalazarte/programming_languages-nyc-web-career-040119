@@ -12,7 +12,6 @@ def reformat_languages(languages)
   languages.each do |styles, name_of_language|
     name_of_language.each do |language_attributes, type|
       language_attributes.each do |type, type_value|
-      binding.pry
       new_hash[language_attributes] = {type: type_value}
       
 end
