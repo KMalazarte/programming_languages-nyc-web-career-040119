@@ -1,6 +1,7 @@
 require "pry"
 #hash is = 
-#  languages, 
+# languages,
+# language hash
  #   styles, 
   #   name of language, 
    #    language attributes, 
