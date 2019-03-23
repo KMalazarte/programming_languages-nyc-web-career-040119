@@ -13,7 +13,7 @@ def reformat_languages(languages)
   languages.each do |styles, language_hash|
     language_hash.each do |language, type|
       if !new_hash[language]
-      new_hash[language] = {type: type_value}
+      new_hash[language] = {}
       
 end
 end
