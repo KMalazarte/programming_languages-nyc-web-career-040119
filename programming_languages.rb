@@ -10,7 +10,6 @@ require "pry"
 def reformat_languages(languages)
   new_hash = {}
   languages.each do |styles, name_of_language|
-    binding.pry
     name_of_language.each do |language_attributes, type|
       binding.pry
       language_attributes.each do |type, type_value|
