@@ -13,9 +13,15 @@ def reformat_languages(languages)
   languages.each do |styles, language_hash|
     language_hash.each do |language, type_hash|
       type_hash.each do |type_key, type_val|
-    binding.pry
+        new_hash{language] = {:type => type_val, :styles => []}
+      end
 end
 end
-end
+
+
+
+
+
+
 new_hash
 end
