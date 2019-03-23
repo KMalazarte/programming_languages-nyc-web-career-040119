@@ -4,15 +4,15 @@ require "pry"
  # language hash
   #  language
    #   type_hash
-    #    language attributes, 
-     #     type, 
+    #    type_key, 
+     #     type_val, 
       
 
 def reformat_languages(languages)
   new_hash = {}
   languages.each do |styles, language_hash|
     language_hash.each do |language, type_hash|
-      type_hash.each do |language_attributes, type|
+      type_hash.each do |type_key, type_val|
     binding.pry
 end
 end
